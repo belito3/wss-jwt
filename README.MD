@@ -14,9 +14,9 @@
     * node index.js
     * Access: wss://domain:port, or https://domain:port
 
-##Reference:
-    ** WSS with Let's Encrypt and Certbot:
-        http://www.chovy.com/web-development/self-signed-certs-with-secure-websockets-in-node-js/          
-        https://blog.zackad.com/en/2017/08/19/create-websocket-with-nodejs.html   (***USE certbot***) (1)
+## Reference:
+    * WSS with Let's Encrypt and Certbot:
+    - http://www.chovy.com/web-development/self-signed-certs-with-secure-websockets-in-node-js/          
+    - https://blog.zackad.com/en/2017/08/19/create-websocket-with-nodejs.html   (***USE certbot***) (1)
 
-        https://letsencrypt.org/getting-started/
+    - https://letsencrypt.org/getting-started/
