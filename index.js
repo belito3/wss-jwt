@@ -3,8 +3,8 @@ var https = require('https');
 var jwt = require('jsonwebtoken');
 var config = require('./config');
 
-var privateKey  = fs.readFileSync('ssl-cert/privkey.pem', 'utf8');
-var certificate = fs.readFileSync('ssl-cert/fullchain.pem', 'utf8');
+var privateKey  = fs.readFileSync('sslcert/privkey.pem', 'utf8');
+var certificate = fs.readFileSync('sslcert/fullchain.pem', 'utf8');
  
 var credentials = {key: privateKey, 
                     cert: certificate};
