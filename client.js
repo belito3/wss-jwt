@@ -1,3 +1,5 @@
+// Client with token
+
 var jwt = require('jsonwebtoken');
 var config = require('./config');
 var WebSocket = require('ws');
